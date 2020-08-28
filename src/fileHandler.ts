@@ -21,7 +21,7 @@ export class FileHandler {
         for (var i = 0; i < fileHandlerActions.length; i++) {
             console.log('\x1b[36m%s\x1b[0m', fileHandlerActions[i]);
         }
-        this.action = new Console().ReadInput("Choose the FileHandler option and type the number of your choice ");
+        this.action = new Console().ReadInput("Choose the FileHandler option and type the number of your choice: ");
 
         switch (this.action) {
             case "1":

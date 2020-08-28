@@ -19,7 +19,7 @@ export function ActionList() {
         for (var i = 0; i < actions.length; i++) {
             console.log('\x1b[36m%s\x1b[0m', actions[i])
         }
-        action = new Console().ReadInput("Choose the Main option and type the number of your choice ");
+        action = new Console().ReadInput("Choose the Main option and type the number of your choice: ");
 
         switch (Number(action)) {
             case 1:
